@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-color: #1E1E1E;
+}
+
+#logo {
+    margin: 3em;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 34.5px;
+}
+
+form {
+    display: grid;
+    grid-auto-rows: auto;
+    justify-content: center;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+    font-family: 'roboto';
+    padding-top: 1.5em;
+    padding-bottom: 5px;
+}
+
+input {
+    width: 524px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 11px 13px 11px 13px;
+}
+/*estilo da mensagem de erro na classe error (span)*/
+.error, .error2, .error3, .error4, .error5{
+    width  : 100%;
+    padding: 0;
+    font-family: 'roboto';
+    font-size: 15px;
+    color: #E73550; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: end;
+}
+
+.errorAll {
+    width  : 100%;
+    padding: 0;
+    font-family: 'roboto';
+    font-size: 15px;
+    color: #E73550; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.sucesso {
+    width  : 100%;
+    padding: 0;
+    font-family: 'roboto';
+    font-size: 15px;
+    color: #0F7B0F;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+
+.error.active {
+    padding: 0.3em;
+}
+
+#botao {
+    color: white;
+    background-color: #0C70F2;
+    width: 555px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 2em;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'roboto';
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Jumpy - Formação Tecnologia</title>
+    <link href="assets/index.css" rel="stylesheet">
+</head>
+<body>
+    <div id="logo">
+        <img src="assets/img/Group 1023.png">
+    </div>
+    <header>
+        <img src="assets/img/jumpy 1.png" width="350px">
+        <h2>Bem vindo ao Jumpy!</h2>
+    </header>
+    <section>
+        <form action="" method="" novalidate>
+            <label for="nomecompleto">Nome Completo:</label>
+            <input id="nomecompleto" name="nome" type="text" placeholder="Nome completo">
+            <span class="error2" aria-live="polite"></span>
+
+            <label for="email">Email:</label>
+            <input id="mail" name="mail" type="email" placeholder="Email@email.com" >
+            <span class="error" aria-live="polite"></span>
+
+            <label>Telefone:</label>
+            <input id="tel" type="tel" placeholder="(00) 00000-0000" maxlength="11">
+            <span class="error3" aria-live="polite"></span>
+
+            <label>CPF:</label>
+            <input id="cpf" type="number" placeholder="000.000.000-00">
+            <span class="error4" aria-live="polite"></span>
+
+            <label>Senha:</label>
+            <input id="senha" type="password" placeholder="****************" >
+            <span class="error5" aria-live="polite"></span>
+
+            <button id="botao" type="submit" value="Cadastrar" onclick="addEventListener()">Cadastrar</button>
+            <span class="errorAll" aria-live="polite"></span>
+        </form>
+    </section>
+    <script src="assets/script.js"></script>
+</body>
+</html>
